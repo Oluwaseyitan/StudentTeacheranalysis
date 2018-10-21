@@ -19,6 +19,7 @@ print(encoder.classes_)
 
 In [16]:
 
+
 from sklearn.preprocessing import LabelEncoder
 encoder = LabelEncoder()
 i=0
@@ -35,5 +36,5 @@ df_cat.head()
 
 In [18]:
 
-#Save file
+# Save file
 df_cat.to_csv('Desktop/Research Questionnaire .csv')
